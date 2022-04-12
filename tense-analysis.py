@@ -23,7 +23,7 @@ def is_verb(tag):
         tag (str): A POS tag
 
     Returns:
-        True: If the POS tag represents a string, False otherwise.
+        True: If the POS tag is a verb, False otherwise.
     """
     return tag in VERBS
 
@@ -53,7 +53,7 @@ def count_tags(text):
 def print_progress(curr, total):
     """
     Prints how many files have been analysed and what percentage of the way
-    though the analysis is.
+    through the analysis is.
 
     Args:
         curr (int): The current file number

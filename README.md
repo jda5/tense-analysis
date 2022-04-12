@@ -6,7 +6,7 @@ This work was done by *** at *** [censored for to protect the anonymity of the a
 
 In order to run this script, you will need to install Python (version 3.8) and NLTK (version 3.6). Details on how to install Python can be found here: https://www.python.org, and you can learn how to install NLTK here: https://www.nltk.org/install.html.
 
-Once you have these installed you can run the script by placing it in a folder with the corpora. The file structure should look like this:
+Once you have these installed you can run the script by placing it in a folder with the corpora. Your file structure should look like this:
 
 ```
 |-- tense_analysis.py

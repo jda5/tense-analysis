@@ -16,3 +16,11 @@ Once you have these installed you can run the script by placing it in a folder w
    |-- file3.txt
    etc.
 ```
+Finally, you will need to change the code on lines 122 and 123 to tell Python which folder the corpus you wish to analyse is located in. For example, if you were analysing the LOB corpus, these two lines should read:
+
+```
+data = analyse_corpus('./lob_corpus')
+save_data('lob_corpus.csv', data)
+```
+
+This tells Python to analyse the corpus located in the `lob_corpus` folder, and then to save the data to a file called `lob_corpus.csv`

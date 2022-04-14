@@ -2,7 +2,7 @@
 
 The `tense-analysis.py` script contains the source code used to evaluate the ratio of past to present-tense verbs in a corpus created from academic mathematics papers uploaded to the ArXiv, as well as the Brown and LOB corpora.
 
-This work was done by *** at *** [censored to protect the anonymity of the author(s) as their paper is being reviewed].
+This work was done by *** at ***.
 
 In order to run this script, you will need to install Python (version 3.8) and NLTK (version 3.6). Details on how to install Python can be found here: https://www.python.org, and you can learn how to install NLTK here: https://www.nltk.org/install.html.
 
